@@ -73,7 +73,7 @@ export const GPGPUParticles = ({ nbParticles = 1000 }) => {
         gl.compute(computeUpdate)
     })
 
-    return (
+    return ( 
         <>
             <sprite count={nbParticles}>
                 <spriteNodeMaterial {...nodes} transparent depthWrite={false} blending={AdditiveBlending} />
